@@ -1,0 +1,91 @@
+*
+{
+	margin: 0; padding: 0;
+	color: white;
+}
+
+.fullpage
+{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../images/creationback1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.headerpart
+{
+
+	width: 90%;
+	height: 50px;
+	margin: 50px auto 0 auto;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fullpage .headerpart .logo img
+{
+	width: 200px;
+	height: auto;
+	padding: 50px 0 0 50px;
+}
+
+.headerpart nav
+{
+	display: inline-block;	
+	justify-content: space-between;	
+	text-decoration: none;
+	font-size: x-large;
+    
+
+}
+
+.headerpart nav a:hover
+{
+	background-color: white;
+	color: #242424;
+	transition: 0.4s ease;
+}
+
+.headerpart nav a:active
+{
+	background-color: white;
+	color: #242424;
+	transition: 0.4s ease;
+}
+
+.fullpage .ctpart
+{
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	transform: translate( -50%, -50%);
+}
+
+.fullpage .ctpart h1
+{
+	font-size: 4rem;
+}
+
+.fullpage .ctpart .buttons
+{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto 0 auto;
+}
+.fullpage .ctpart .navbutton 
+{
+	/*color: black;*/
+	font-size: large;
+	display: block;
+	padding: .7rem;
+    border-style: none;
+
+}
+
